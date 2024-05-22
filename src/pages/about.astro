@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Guillermo Zaandam" description="About Guillermo Zaandam">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/me.jpg"
+					alt="Guillermo Zaandam at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						<h1>Biography of Guillermo Zaandam</h1>
+
+						<br><br>
+
+    <h2>Early Life and Education</h2>
+    <p>Guillermo Zaandam was born and raised in the vibrant city of San Diego, California. From a young age, Guillermo exhibited a natural curiosity and a boundless energy that often saw him exploring the outdoors. His parents, both avid adventurers, encouraged his love for nature and physical activity. This early exposure to outdoor activities laid the foundation for his later passion for extreme sports.</p>
+    <p>During his school years, Guillermo excelled academically and was particularly drawn to mathematics and computer science. His knack for problem-solving and creativity found a perfect outlet in web development, a field he would later pursue professionally.</p>
+
+    <h2>Passion for Extreme Sports</h2><br>
+
+    <p>Guillermo's love for extreme sports began in his teenage years. He started with skateboarding and surfing, typical pastimes for a San Diego native, but soon sought more thrilling experiences. By the age of 18, he was already an accomplished snowboarder, skydiver, and mountain biker. His adventurous spirit led him to travel extensively, seeking the most challenging and exhilarating extreme sports locations around the world. From the snow-capped peaks of the Swiss Alps to the treacherous rapids of the Colorado River, Guillermo has tackled it all with fearless enthusiasm.</p>
+
+    <h2>Automotive Enthusiast</h2><br>
+    <p>Cars have always been another of Guillermo's passions. Fascinated by their engineering and design, he began collecting and restoring classic cars during his college years. His garage is a testament to his dedication, housing an impressive collection ranging from vintage muscle cars to the latest high-performance sports cars. Guillermo is a regular participant in car shows and races, where his meticulously restored vehicles often win accolades. His knowledge of automotive mechanics and his skill behind the wheel have earned him a respected place in the car enthusiast community.</p>
+
+    <h2>Web Development Career</h2><br>
+    <p>Professionally, Guillermo Zaandam is a talented web developer. He pursued a degree in Computer Science at the University of California, San Diego, where he honed his skills in coding and design. After graduating, he quickly established himself in the tech industry, working for several high-profile companies before starting his own web development firm. His company specializes in creating dynamic, user-friendly websites for a diverse range of clients, from small businesses to large corporations. Guillermo's ability to combine technical expertise with creative design has made his firm one of the most sought-after in the industry.</p>
+
+    <h2>Personal Life</h2><br>
+    <p>Despite his busy professional life and numerous hobbies, Guillermo always finds time for his family and friends. He is known for his generosity and willingness to mentor young aspiring web developers and extreme sports enthusiasts. Guillermo is also involved in various charitable activities, particularly those related to youth education and environmental conservation.</p>
+
+    <h2>Conclusion</h2>
+    <p>Guillermo Zaandam is a remarkable individual whose life is a blend of adrenaline-fueled adventures, automotive passion, and technological innovation. His journey from a curious young boy in San Diego to a successful web developer and extreme sports aficionado is a testament to his relentless pursuit of excellence and his love for life's thrilling experiences. Whether he's coding the next big web application, restoring a classic car, or conquering a new extreme sport, Guillermo approaches everything he does with enthusiasm, skill, and a zest for life.</p>
+				</div>
+			</section>
+			<section>
+				<!-- <h2 class="section-title">Education</h2>
+				<div class="content">
+					<p>Corporis voluptates tenetur laudantium.</p>
+				</div> -->
+			</section>
+			<section>
+				<!-- <h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>officia unde omnis</p>
+				</div> -->
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
