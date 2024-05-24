@@ -12,7 +12,7 @@ import Icon from "../components/Icon.astro";
 // import Pill from "../components/Pill.astro";
 import PortfolioPreview from "../components/PortfolioPreview.astro";
 
-import Intro from "../assets/intro.mp4";
+import Intro_header from "../assets/intro.mp4";
 import Intro_Mobile from "../assets/mobile_intro.mp4";
 
 // Page section components
@@ -52,7 +52,7 @@ const projects = (await getCollection("work"))
           autoplay="true"
           loop="true"
         >
-          <source src={Intro} type="video/mp4" />
+          <source src={Intro_header} type="video/mp4" />
         </video>
 
         <!-- Mobile -->
