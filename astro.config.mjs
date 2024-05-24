@@ -4,6 +4,6 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 
     site: 'https://gllrmzndm.github.io',
-    base: 'portfolioguillermozaandam',
+    base: '',
     integrations: [tailwind()],
 });
