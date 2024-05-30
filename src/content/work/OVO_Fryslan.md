@@ -20,7 +20,6 @@ Aantal zaken vereenvoudigd, overzichtelijk gemaakt en het oog wilt ook wat.
 - Makkelijker om Office te downloaden in plaats van 3000 keer te klikken
 - Mobiel vriendelijk gemaakt
 - Kleine dingen zoals een Friesevlag toevoegd (Als je het tabblad bekijkt)
-- Aangezien dit niet mijn werk is, heb ik een thema gebruikt.
 
 Je kan hier de website bekijken: [OVO Fryslan](https://gllrmzndm.github.io/OVO_Fryslan-Noord/)
 
