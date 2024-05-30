@@ -19,8 +19,8 @@ const { data, slug } = Astro.props.project;
 		grid-template: auto 1fr / auto 1fr;
 		height: 11rem;
 		background: var(--gradient-subtle);
-		border: 1px solid var(--gray-800);
-		border-radius: 0.75rem;
+		/* border: 2px solid #fa37c1; */
+		/* border-radius: 0.75rem; */
 		overflow: hidden;
 		box-shadow: var(--shadow-sm);
 		text-decoration: none;
@@ -28,10 +28,22 @@ const { data, slug } = Astro.props.project;
 		font-size: var(--text-lg);
 		font-weight: 500;
 		transition: box-shadow var(--theme-transition);
-	}
 
+		/* NFS HEAT */
+		padding: 1rem;
+		position: relative;
+		background: linear-gradient(to right, #741ce9, #fa37c1);
+		padding: 3px;
+	}
+	
 	.card:hover {
 		box-shadow: var(--shadow-md);
+
+		/* NFS HEAT */
+		padding: 1rem;
+		position: relative;
+		background: linear-gradient(to right, #741ce9, #00ffff);
+		padding: 3px;
 	}
 
 	.title {
@@ -54,7 +66,7 @@ const { data, slug } = Astro.props.project;
 	@media (min-width: 50em) {
 		.card {
 			height: 22rem;
-			border-radius: 1.5rem;
+			/* border-radius: 1.5rem; */
 		}
 
 		.title {
