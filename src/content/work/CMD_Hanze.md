@@ -12,15 +12,15 @@ tags:
 
  [CMD Hanze Hogeschool](https://gllrmzndm.github.io/Hanzehogeschool/)
 
-Nieuwe website voor mezelf, aangezien ik te lui was om elke keer het gebouw op te zoeken,
-Als je op "Waar zijn de les gebouwen" drukt krijg foto's te zien met les gebouwen.
+New website for myself, since I was too lazy to look up the building each time,
+If you press "Where are the lesson buildings" you get to see pictures with lesson buildings.
 
-Als je op één van de foto's drukt, wordt Google Maps geopend en krijg je automatisch aanwijzing, alles is gehardlinked.
+If you press on one of the photos, Google Maps opens and you get directions automatically, everything is hardlinked.
 
-- Alles op éém plek in plaats van overal verspeid bij de originele website van Hanze hogeschool
-- Darkmode en lightmode toegvoegd
+- Everything in one place instead of scattered everywhere on the original Hanze website
+- Darkmode and lightmode added
 
-Je kan hier de website bekijken: [CMD Hanzehogeschool](https://gllrmzndm.github.io/Hanzehogeschool/#)
+You can check out the website here: [CMD Hanzehogeschool](https://gllrmzndm.github.io/Hanzehogeschool/#)
 
 ---
 

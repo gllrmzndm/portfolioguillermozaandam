@@ -12,16 +12,16 @@ tags:
 
  [OVO Fryslan](https://gllrmzndm.github.io/OVO_Fryslan-Noord/)
 
-Nieuwe website voor kinderen en medewerkers.
-Aantal zaken vereenvoudigd, overzichtelijk gemaakt en het oog wilt ook wat.
+New website for children and staff.
+Some things simplified, made clearer and the eye wants something too.
 
-- Makkelijker om te Googlen
-- Darkmode en lightmode toegvoegd
-- Makkelijker om Office te downloaden in plaats van 3000 keer te klikken
-- Mobiel vriendelijk gemaakt
-- Kleine dingen zoals een Friesevlag toevoegd (Als je het tabblad bekijkt)
+- Easier to google
+- Darkmode and lightmode added
+- Easier to download Office instead of clicking 3000 times
+- Made mobile friendly
+- Little things like a Frisian flag added (If you look at the tab)
 
-Je kan hier de website bekijken: [OVO Fryslan](https://gllrmzndm.github.io/OVO_Fryslan-Noord/)
+You can check out the website here: [OVO Fryslan](https://gllrmzndm.github.io/OVO_Fryslan-Noord/)
 
 ---
 
@@ -34,14 +34,4 @@ Nieuwe website
 ![Website dark](/assets/OVO_Fryslan/ovo_dark.png)
 
 ---
-
-- Darkmode (Users not going to be flashbanged)
-- Theming
-- Other picture
-- Website icon
-- Small fixed like the navbar covering the screen when pressing the menu button in FireFox (Android)
-- Adding Google search form that redirects the query to Google
-- Aligning text
-- Added office installer (one click)
-- Using NetLog dump to get the link (https://www.chromium.org/for-testers/providing-network-details/)
 

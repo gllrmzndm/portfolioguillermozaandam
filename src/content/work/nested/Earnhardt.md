@@ -13,12 +13,12 @@ tags:
 
 [Earnhardt Cadillac](https://www.youtube.com/watch?v=oTp7ssoeAi0)
 
-Earnhardt website, eigenlijk de template voor mijn blog, gezien de onderliggende techniek meer werkt.
-Ben ik overgegaan op iets anders.
-Moeilijkste was het design en eigenlijk alles erom heen wat je kan zien met het oog.
-In principe ben ik hier het meest trots op.
+Earnhardt website, actually the template for my blog, given the underlying technology works more.
+I switched to something else.
+Most difficult was the design and basically everything around it that you can see with the eye.
+Basically, this is what I am most proud of.
 
-Aangezien de website niet meer werkt, heb ik alleen een video.
+Since the website no longer works, I only have a video.
 
 ---
 

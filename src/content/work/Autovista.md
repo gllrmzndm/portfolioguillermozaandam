@@ -14,7 +14,7 @@ tags:
 
 [Autovista](https://forza-motorsport-autovista.vercel.app/)
 
-Laatste project: Autovista
+Latest project: Autovista
 
 ---
 
