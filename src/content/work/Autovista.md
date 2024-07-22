@@ -6,7 +6,7 @@ img_alt: Hanze hogeschool
 description: |
  School website
 tags:
-  - Autovista
+  - myblog
 ---
 
 ![Autovista](/assets/Autovista/autovista_2.png)
