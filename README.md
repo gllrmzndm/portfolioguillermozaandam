@@ -38,9 +38,11 @@ Portfolio blog came much later then I initally had in my mind.
 # What to do
 
 
-- [x] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
-- [x] About me
-- [x] Home
+- [] Open Graph/Social cards (https://github.com/jonasmerlin/astro-seo) (https://docs.dummyapi.online/guides/astro-social-cards/) (https://github.com/shepherdjerred/astro-opengraph-images) (https://astro.build/integrations/)
+- [] Better darkmode
+- [] About me
+- [] Home
+
 
 
 
@@ -54,5 +56,3 @@ Future ambitions
 - [ ] Google translate (https://www.youtube.com/watch?v=iO6j3SR7U6Q) (https://github.com/yassinedoghri/astro-i18next)
 - [ ] Google Analytics/Other analytics
 - [ ] Text (https://cruip.com/creating-a-sliding-text-animation-with-tailwind-css/)
-
-Source: https://github.com/treefarmstudio/astro-minimal-starter
