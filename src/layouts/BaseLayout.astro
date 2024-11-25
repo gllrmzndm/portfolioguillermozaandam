@@ -19,17 +19,16 @@ const { title, description } = Astro.props;
 <html lang="en">
 	<head>
 		<MainHead title={title} description={description} />
-		<GoogleAnalytics id="G-F05ZK5CCCW" />
-		
+
 		<!-- HTML Meta Tags -->
-		<title>Guillermo Zaandam: Personal Site</title>
-		<meta name="description" content="Portfolio of Guillermo Zaandam">
+		<title>Guillermo Zaandam: Portfolio</title>
+		<meta name={title} content="Portfolio Guillermo Zaandam">
 
 		<!-- Facebook Meta Tags -->
 		<meta property="og:url" content="https://portfolioguillermozaandam.nl/">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="Guillermo Zaandam: Portfolio">
-		<meta property="og:description" content="Portfolio of Guillermo Zaandam">
+		<meta property="og:description" content="Portfolio Guillermo Zaandam">
 		<meta property="og:image" content="/assets/hero.jpg">
 
 		<!-- Twitter Meta Tags -->
@@ -37,10 +36,11 @@ const { title, description } = Astro.props;
 		<meta property="twitter:domain" content="portfolioguillermozaandam.nl">
 		<meta property="twitter:url" content="https://portfolioguillermozaandam.nl/">
 		<meta name="twitter:title" content="Guillermo Zaandam: Portfolio">
-		<meta name="twitter:description" content="Portfolio of Guillermo Zaandam">
+		<meta name="twitter:description" content="Portfolio Guillermo Zaandam">
 		<meta name="twitter:image" content="/assets/hero.jpg">
 
-
+		<!-- Google Analytics -->
+		<GoogleAnalytics id="G-F05ZK5CCCW" />
 	</head>
 	<body>
 		<div class="stack backgrounds">
