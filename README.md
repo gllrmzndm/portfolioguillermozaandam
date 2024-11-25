@@ -54,5 +54,6 @@ Future ambitions
 - [ ] Astro embed (https://astro-embed.netlify.app/)
 - [ ] CMS Ready (https://tina.io/)
 - [ ] Google translate (https://www.youtube.com/watch?v=iO6j3SR7U6Q) (https://github.com/yassinedoghri/astro-i18next)
-- [ ] Google Analytics/Other analytics
+- [X] Google Analytics/Other analytics
+- [X] Opengraph
 - [ ] Text (https://cruip.com/creating-a-sliding-text-animation-with-tailwind-css/)
