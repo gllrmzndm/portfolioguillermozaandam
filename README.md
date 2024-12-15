@@ -44,8 +44,6 @@ Portfolio blog came much later then I initally had in my mind.
 - [] Home
 
 
-
-
 Future ambitions
 
 - [ ] The Verge style
@@ -57,3 +55,4 @@ Future ambitions
 - [X] Google Analytics/Other analytics
 - [X] Opengraph
 - [ ] Text (https://cruip.com/creating-a-sliding-text-animation-with-tailwind-css/)
+- [ ] Formatter not working (https://github.com/withastro/prettier-plugin-astro/blob/main/README.md)
