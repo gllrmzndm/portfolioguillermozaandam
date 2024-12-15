@@ -7,6 +7,8 @@ import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { GoogleAnalytics } from 'astro-google-analytics';
+import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
+
 
 interface Props {
 	title?: string | undefined;
@@ -19,6 +21,8 @@ const { title, description } = Astro.props;
 <html lang="en">
 	<head>
 		<MainHead title={title} description={description} />
+		 <GoogleFontsOptimizer url="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap">
+    </GoogleFontsOptimizer>
 
 		<!-- HTML Meta Tags -->
 		<title>Guillermo Zaandam: Portfolio</title>
