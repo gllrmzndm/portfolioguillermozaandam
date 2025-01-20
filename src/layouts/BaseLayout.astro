@@ -8,6 +8,7 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
 import { GoogleAnalytics } from 'astro-google-analytics';
+import { SimpleAnalytics } from 'astro-simpleanalytics-plugin';
 
 
 interface Props {
@@ -142,5 +143,8 @@ const { title, description } = Astro.props;
 				}
 			}
 		</style>
+		<SimpleAnalytics
+			  collectDNT={true}
+		 />
 	</body>
 </html>
